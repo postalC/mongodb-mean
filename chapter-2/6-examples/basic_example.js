@@ -18,7 +18,8 @@ p.name = 2;
 console.log(p.name); // 2
 console.log(p.$isValid('name')); // true
 
-p.price.amount = 'Not a number';
+// p.price.amount = 'Not a number';
+p.price.amount = 3;
 p.validate(function(err) {
   // CastError because `price.amount` couldn't be
   // casted to a number

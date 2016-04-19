@@ -1,1 +1,1 @@
-exports.other = require('./myotherfile');
+exports.other2 = require('./myotherfile');
