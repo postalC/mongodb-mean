@@ -1,0 +1,14 @@
+{
+  "name": "2-examples",
+  "version": "1.0.0",
+  "description": "example 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "postalc",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "4.0.3"
+  }
+}
